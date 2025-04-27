@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitCare"
         tools:targetApi="31">
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
